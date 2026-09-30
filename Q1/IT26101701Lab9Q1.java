@@ -12,6 +12,7 @@ public class IT26101701Lab9Q1 {
         System.out.print("Enter value c: ");
         double c = sc.nextDouble();
 
+        // discriminant = b^2 - 4ac
         double discriminant = Math.pow(b, 2) - (4 * a * c);
 
         System.out.println();
